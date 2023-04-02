@@ -1,0 +1,12 @@
+/.idea
+.editorconfig
+.eslintrc
+.prettierrc
+index.html
+style.css
+main.js
+postcss.config.js
+tailwind.config.js
+test.js
+testplugin.js
+package.json
