@@ -56,6 +56,5 @@
     "lodash": "^4.17.21",
     "prettier": "^2.8.7",
     "standard-version": "^9.5.0"
-  },
-
+  }
 }
