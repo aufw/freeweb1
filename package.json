@@ -37,7 +37,7 @@
   "author": "davaei",
   "license": "MIT",
   "devDependencies": {
-    "freeweb1": "^1.0.8",
+    "freeweb1": "^1.0.10",
     "@tailwindcss/typography": "^0.5.9",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.21",
