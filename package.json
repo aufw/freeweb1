@@ -1,6 +1,6 @@
 {
   "name": "freeweb1",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Freeweb Test 1",
   "main": "index.js",
   "type": "module",
