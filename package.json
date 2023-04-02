@@ -1,0 +1,61 @@
+{
+  "name": "freeweb1",
+  "version": "1.0.8",
+  "description": "Freeweb Test 1",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write --loglevel=error . !CHANGELOG.md",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "release": "standard-version",
+    "postrelease": "git push --follow-tags origin main && npm publish"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint:fix && npm run format && npm run test"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aufw/freeweb1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aufw/freeweb1/issues"
+  },
+  "homepage": "https://github.com/aufw/freeweb1#readme",
+  "keywords": [
+    "freeweb1"
+  ],
+  "author": "davaei",
+  "license": "MIT",
+  "devDependencies": {
+    "freeweb1": "^1.0.8",
+    "@tailwindcss/typography": "^0.5.9",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.1",
+    "vite": "^4.2.0",
+    "eslint": "^8.37.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jest": "^27.2.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.3",
+    "jest": "^29.5.0",
+    "jest-matcher-css": "^1.1.0",
+    "lint-staged": "^13.2.0",
+    "lodash": "^4.17.21",
+    "prettier": "^2.8.7",
+    "standard-version": "^9.5.0"
+  },
+
+}
